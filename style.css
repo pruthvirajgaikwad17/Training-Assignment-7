@@ -1,0 +1,40 @@
+body {
+  background: linear-gradient(120deg, #2980b9, #8e44ad);
+}
+
+.tab {
+  border: 1px solid #ccc;
+  background-color: aqua;
+  position: static;
+  text-align-last: left;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+button {
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 14px 16px;
+  background-color: aqua;
+  border-radius: 10px;
+}
+
+.tab button:hover {
+  background-color: #eb92fd;
+}
+
+p {
+  margin-top: 0px;
+  background: linear-gradient(120deg, #06e2f1, #8d600d);
+  border-top: none;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.active {
+  background-color: #eb92fd;
+  border-width: 0px;
+}
